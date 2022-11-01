@@ -313,10 +313,14 @@
 </section>
 
 <section id="video-bg">
-    
     <div id="bgndVideo" class="player" style="display:block;"
          data-property="{videoURL:'https://www.youtube.com/watch?v=8La1OPC6bhg',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:80, stopAt:259, opacity:1}">
-    </div>
+    
+         <video playsinline autoplay loop muted style="min-width:100%; min-height:100%;" >
+            <source type="video/mp4" src="https://www.youtube.com/watch?v=8La1OPC6bhg">
+       </video>
+       
+        </div>
     <div id="video-content">
         <h5>Shivamogga</h5>
         <p>City of Malnad</p>
